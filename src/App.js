@@ -23,12 +23,16 @@ const App = () => {
             {apod.title} - <i>{apod.date}</i>
           </header>
           <img src={apod.url} alt="APOD" width="500" height="auto" />
-          <p>{apod.explanation}</p>
+
+          <h6 >{apod.explanation}</h6>
           <pre
             style={{
-              overflowX: "auto",
-              whiteSpace: "pre-wrap",
-              wordWrap: "break-word",
+              display :"flex",
+              justifyContent: "center",
+              alignItems: "center",
+              // overflowX: "auto",
+              // whiteSpace: "pre-wrap",
+              // wordWrap: "break-word",
             }}
           >
             <hr />
