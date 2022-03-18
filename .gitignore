@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+REACT_APP_NASA_ENDPOINT=https://api.nasa.gov/
+REACT_APP_NASA_API_KEY=hjfyLdhA0S4b3KzdKnA8fGgSSokZHBK3opYhtvG4
